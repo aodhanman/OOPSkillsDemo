@@ -131,7 +131,7 @@ public class Manager extends javax.swing.JFrame {
             
         }
         
-        m.setSalary( 30000.0);
+        m.setSalary(30000.0);
         try{
         m.setTotal(m.getSalary() + ((m.getSalary() * m.getYears()) * .1));
         }catch(Exception e){
